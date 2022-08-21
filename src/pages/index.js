@@ -57,7 +57,7 @@ const IndexPage = () => (
             href={`${link.url}${utmParameters}`}
             target={"_blank"}
           >
-          <h1><div className={styles.flex}>{link.text} <SVG.ArrowUpRight height={36}/></div></h1>
+          <h1><div className={styles.flex}>{link.text} <div className={styles.arrowDesktop}><SVG.ArrowUpRight height={36}/></div><div className={styles.arrowMobile}><SVG.ArrowUpRight height={24}/></div></div></h1>
           </a>
           <p className={styles.listItemDescription}>{link.description}</p>
         </li>
