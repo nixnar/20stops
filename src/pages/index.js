@@ -46,7 +46,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.intro}>
       <h1>
-      Ran Xin <span className={styles.textGray}>is a Cinematographer, Colorist. <br />Currently based in San Francisco. <br />He has over 6 years of work experience on feature films, short films, commercials and weddings.</span>
+      Ran Xin <span className={styles.textGray}>is a Cinematographer, Colorist. <br />Currently based in San Francisco. <br />He has over 6 years of work experience on feature films, short films, commercials, pitch deck, and weddings.</span>
       </h1>
     </div>
     <ul className={styles.list}>

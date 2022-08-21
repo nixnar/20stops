@@ -28,6 +28,7 @@
   --size-gutter: var(--space-2);
   --size-padding: var(--space-3);
   --size-gap: var(--space-7);
+  --size-mobile: 768px;
 }
 html {
   -webkit-text-size-adjust: 100%;

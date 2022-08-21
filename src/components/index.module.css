@@ -41,7 +41,13 @@
 
 .intro {
   margin-bottom: var(--size-gap);
-  margin-top: 20vh;
+  margin-top: 20vh; 
+}
+
+@media (max-width: 768px) {
+  .intro {
+    margin-top: 0;
+  }
 }
 
 .textGray {
