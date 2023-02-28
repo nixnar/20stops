@@ -9,8 +9,9 @@ import * as SVG from "../components/svg";
 
 const links = [
   {
-    text: "Main Reel",
+    text: "Reel",
     url: "https://www.youtube.com/watch?v=zgBO-dcmQco",
+    description: "Reel is currently out of date, new reel work in progress"
   },
   {
     text: "Stills",
@@ -31,11 +32,33 @@ const samplePageLinks = [
   { text: "Deferred Static Generation", url: "using-dsg" },
 ]
 
+const brandlogos = [
+  { filepath: "https://i.imgur.com/vYXhlIU.png" },
+  { filepath: "https://i.imgur.com/d4UnJry.png" },
+  { filepath: "https://i.imgur.com/j2v4imq.png",     
+    width: '80px',
+    height: '80px' },
+  { filepath: "https://i.imgur.com/k4ZcXeC.png",
+    width: '120px'},
+  { filepath: "https://i.imgur.com/TMx2kcj.png",
+    width: '120px'},
+  { filepath: "https://i.imgur.com/HMUmann.png" },
+  { filepath: "https://i.imgur.com/TG69k3q.png",
+    width: '60px',
+    height: '60px' },
+  { filepath: "https://i.imgur.com/rgiJfNq.png"},
+  { filepath: "https://i.imgur.com/dtrjFj2.png" },
+]
+
 const moreLinks = [
-  { text: "Email", url: "mailto:team@20stops.com" },
+  { text: "Email", url: "mailto:ran@20stops.com" },
   {
     text: "LinkedIn",
     url: "https://www.linkedin.com/in/zinlioren/",
+  },
+  {
+    text: "Instagram",
+    url: "https://www.instagram.com/ranxin20stops/",
   }
 ]
 
@@ -46,7 +69,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.intro}>
       <h1>
-      Ran Xin <span className={styles.textGray}>is a Cinematographer, Colorist. <br />Currently based in San Francisco. <br />He has over 6 years of work experience on feature films, short films, commercials, pitch decks, and weddings.</span>
+      Ran Xin <span className={styles.textGray}>is a Cinematographer, Colorist. <br />Currently based in San Francisco. <br />He has over 7 years of work experience on feature films, short films, commercials, pitch decks, and weddings.<br />He provides full service in house production, delivering video and image content for a fraction of what competing market charge.</span>
       </h1>
     </div>
     <ul className={styles.list}>
@@ -63,6 +86,15 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
+
+    <div className={styles.listItemLink}>Clients</div>
+    <div className={styles.flex}>
+      {brandlogos.map(logo => (
+        <React.Fragment key={logo.filepath}>
+          <img className={styles.img} style={{width: logo.width, height: logo.height}} src={logo.filepath} layout="constrained" placeholder="blurred"/>
+        </React.Fragment>
+      ))}
+    </div>
     {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a className={styles.listItemLink} href={`${link.url}${utmParameters}`} target={"_blank"}>{link.text}</a>

@@ -14,7 +14,7 @@
 }
 
 .listItem {
-  margin: 0;
+  margin-bottom: 4px;
 }
 
 .listItemLink {
@@ -27,12 +27,14 @@
 .flex {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .listItemDescription {
-  color: var(--color-text);
+  color: var(--color-gray);
+  font-weight: 500;
   margin-bottom: 0;
-  margin-top: var(--space-1);
+  margin-top: var(--space-0);
 }
 
 .textCenter {
@@ -54,6 +56,11 @@
 
 .arrowMobile {
   display: none;
+}
+
+.img {
+  width: 60px;
+  margin-right: 12px;
 }
 
 @media (max-width: 768px) {

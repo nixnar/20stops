@@ -36,8 +36,9 @@
          <main>{children}</main>
          <footer
            style={{
-             marginTop: `var(--space-5)`,
+             marginTop: `var(--space-1)`,
              fontSize: `var(--font-sm)`,
+             fontWeight: `500`,
            }}
          >
            © {new Date().getFullYear()} &middot; Ran Xin
