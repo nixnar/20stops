@@ -74,6 +74,16 @@ const IndexPage = () => (
       Ran Xin <span className={styles.textGray}>is a Cinematographer, Colorist. <br />Currently based in San Francisco. <br />He has over 7 years of work experience on feature films, short films, commercials, pitch decks, and weddings.<br />He provides full service in house production, delivering video and image content for a fraction of what competing market charge.</span>
       </h1>
     </div>
+
+    <div className={styles.listItemLink}>Clients</div>
+    <div className={styles.flex}>
+      {brandlogos.map(logo => (
+        <React.Fragment key={logo.filepath}>
+          <img className={styles.img} style={{width: logo.width, height: logo.height}} src={logo.filepath} layout="constrained" placeholder="blurred"/>
+        </React.Fragment>
+      ))}
+    </div>
+
     <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
@@ -88,15 +98,7 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
-
-    <div className={styles.listItemLink}>Clients</div>
-    <div className={styles.flex}>
-      {brandlogos.map(logo => (
-        <React.Fragment key={logo.filepath}>
-          <img className={styles.img} style={{width: logo.width, height: logo.height}} src={logo.filepath} layout="constrained" placeholder="blurred"/>
-        </React.Fragment>
-      ))}
-    </div>
+    
     {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a className={styles.listItemLink} href={`${link.url}${utmParameters}`} target={"_blank"}>{link.text}</a>
