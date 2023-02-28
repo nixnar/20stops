@@ -33,21 +33,23 @@ const samplePageLinks = [
 ]
 
 const brandlogos = [
-  { filepath: "https://i.imgur.com/vYXhlIU.png" },
-  { filepath: "https://i.imgur.com/d4UnJry.png" },
-  { filepath: "https://i.imgur.com/j2v4imq.png",     
-    width: '80px',
-    height: '80px' },
-  { filepath: "https://i.imgur.com/k4ZcXeC.png",
-    width: '120px'},
   { filepath: "https://i.imgur.com/TMx2kcj.png",
     width: '120px'},
+  { filepath: "https://i.imgur.com/d4UnJry.png" },
+  { filepath: "https://i.imgur.com/k4ZcXeC.png",
+    width: '120px'},
+  { filepath: "https://i.imgur.com/dtrjFj2.png" },
+  { filepath: "https://i.imgur.com/vYXhlIU.png" },
   { filepath: "https://i.imgur.com/HMUmann.png" },
   { filepath: "https://i.imgur.com/TG69k3q.png",
-    width: '60px',
-    height: '60px' },
-  { filepath: "https://i.imgur.com/rgiJfNq.png"},
-  { filepath: "https://i.imgur.com/dtrjFj2.png" },
+    width: '52px',
+    height: '52px' },
+  { filepath: "https://i.imgur.com/rgiJfNq.png",
+    width: '64px',
+    height: '64px' },
+  { filepath: "https://i.imgur.com/j2v4imq.png",     
+    width: '68px',
+    height: '68px' },
 ]
 
 const moreLinks = [
