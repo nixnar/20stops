@@ -35,10 +35,15 @@ const samplePageLinks = [
 const brandlogos = [
   { filepath: "https://i.imgur.com/TMx2kcj.png",
     width: '120px'},
+  { filepath: "https://i.imgur.com/PL20VBh.png",
+  width: '40px',
+  height: '60px' },
   { filepath: "https://i.imgur.com/d4UnJry.png" },
+  { filepath: "https://i.imgur.com/LNkvraa.png" },
   { filepath: "https://i.imgur.com/k4ZcXeC.png",
     width: '120px'},
   { filepath: "https://i.imgur.com/dtrjFj2.png" },
+  { filepath: "https://i.imgur.com/TjAjoH4.png" },
   { filepath: "https://i.imgur.com/vYXhlIU.png" },
   { filepath: "https://i.imgur.com/HMUmann.png" },
   { filepath: "https://i.imgur.com/TG69k3q.png",
@@ -98,7 +103,7 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
-    
+
     {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a className={styles.listItemLink} href={`${link.url}${utmParameters}`} target={"_blank"}>{link.text}</a>
