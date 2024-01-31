@@ -93,16 +93,21 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.intro}>
       <h1>
-        Ran Xin{" "}
+        <div className={styles.getSpace}>
+          Ran Xin{" "}
+          <span className={styles.textGray}>
+            is a Cinematographer, Colorist. <br />
+            Currently based in San Francisco. <br />
+            He has over 8 years of work experience on feature films, short
+            films, commercials, pitch decks, and weddings.
+          </span>
+        </div>
+
         <span className={styles.textGray}>
-          is a Cinematographer, Colorist. <br />
-          Currently based in San Francisco. <br />
-          He has over 8 years of work experience on feature films, short films,
-          commercials, pitch decks, and weddings.
-          <br />
-          He runs Zou Productions, a Bay Area local production house, offering
-          comprehensive in-house services and delivering high-quality video and
-          image content for a fraction of what competing market charge.
+          He runs <span className={styles.black}>Zou Productions</span>, a Bay
+          Area local production house, offering comprehensive in-house services
+          and delivering high-quality video and image content for a fraction of
+          what competing market charge.
         </span>
       </h1>
     </div>

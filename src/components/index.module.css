@@ -42,8 +42,16 @@
 }
 
 .intro {
-  margin-top: 16vh; 
+  margin-top: 16vh;
   margin-bottom: var(--size-gap);
+}
+
+.getSpace {
+  margin-bottom: 1rem;
+}
+
+.black {
+  color: var(--color-primary);
 }
 
 .textGray {
