@@ -10,8 +10,8 @@ import * as SVG from "../components/svg"
 const links = [
   {
     text: "Reel",
-    url: "https://www.youtube.com/watch?v=zgBO-dcmQco",
-    description: "Reel is currently out of date, new reel work in progress",
+    url: "https://youtu.be/VCRnXnsZzcc?si=07micnb5xIInOMsg",
+    description: "",
   },
   {
     text: "Stills",
@@ -100,7 +100,8 @@ const IndexPage = () => (
           He has over 8 years of work experience on feature films, short films,
           commercials, pitch decks, and weddings.
           <br />
-          He provides full service in house production, delivering video and
+          He runs Zou Productions, a Bay Area local production house, offering
+          comprehensive in-house services and delivering high-quality video and
           image content for a fraction of what competing market charge.
         </span>
       </h1>
