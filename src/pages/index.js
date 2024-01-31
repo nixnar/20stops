@@ -73,10 +73,10 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Ran Xin" />
     <div className={styles.intro}>
       <h1>
-      Ran Xin <span className={styles.textGray}>is a Cinematographer, Colorist. <br />Currently based in San Francisco. <br />He has over 7 years of work experience on feature films, short films, commercials, pitch decks, and weddings.<br />He provides full service in house production, delivering video and image content for a fraction of what competing market charge.</span>
+      Ran Xin <span className={styles.textGray}>is a Cinematographer, Colorist. <br />Currently based in San Francisco. <br />He has over 8 years of work experience on feature films, short films, commercials, pitch decks, and weddings.<br />He provides full service in house production, delivering video and image content for a fraction of what competing market charge.</span>
       </h1>
     </div>
 
