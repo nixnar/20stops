@@ -104,10 +104,17 @@ const IndexPage = () => (
         </div>
 
         <span className={styles.textGray}>
-          He runs <span className={styles.black}>Zou Productions</span>, a Bay
-          Area local production house, offering comprehensive in-house services
-          and delivering high-quality video and image content for a fraction of
-          what competing market charge.
+          He runs{" "}
+          <a
+            href="https://www.zouproductions.com/"
+            target="_blank"
+            className={styles.zoulink}
+          >
+            Zou Productions
+          </a>
+          , a Bay Area local production house, offering comprehensive in-house
+          services and delivering high-quality video and image content for a
+          fraction of what competing market charge.
         </span>
       </h1>
     </div>
